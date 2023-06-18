@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+
+    <test name="Login Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/login"/>
+        <parameter name="userName"   value="tomsmith"/>
+        <parameter name="password"   value="SuperSecretPassword!"/>
+
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkbox Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/checkboxes"/>
+
+
+        <classes>
+            <class name="tests.CheckboxTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Context Menu Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/context_menu"/>
+
+        <classes>
+            <class name="tests.ContextMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="Dropdown Menu Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/dropdown"/>
+
+        <classes>
+            <class name="tests.DropdownMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Content Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/dynamic_content"/>
+
+        <classes>
+            <class name="tests.DynamicContentTest"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Controls Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/dynamic_controls"/>
+
+        <classes>
+            <class name="tests.DynamicControlsTest"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Loading Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/dynamic_loading/2"/>
+
+        <classes>
+            <class name="tests.DynamicLoadingTest"/>
+        </classes>
+    </test>
+
+    <test name="File Download Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/download"/>
+
+        <classes>
+            <class name="tests.FileDownloadTest"/>
+        </classes>
+    </test>
+
+    <test name="File Upload Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/upload"/>
+
+        <classes>
+            <class name="tests.FileUploadTest"/>
+        </classes>
+    </test>
+
+    <test name="Floating Menu Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/floating_menu"/>
+
+        <classes>
+            <class name="tests.FloatingMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="iFrame Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/iframe"/>
+        <parameter name="text"   value="This is my text"/>
+
+        <classes>
+            <class name="tests.IFrameTest"/>
+        </classes>
+    </test>
+
+    <test name="Mouse Hover Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/hovers"/>
+
+        <classes>
+            <class name="tests.MouseHoverTest"/>
+        </classes>
+    </test>
+
+    <test name="JavaScript Alerts Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/javascript_alerts"/>
+        <parameter name="text"   value="This is my text"/>
+
+        <classes>
+            <class name="tests.JavaScriptAlertsTest"/>
+        </classes>
+    </test>
+
+    <test name="Open In New Tab Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/windows"/>
+
+        <classes>
+            <class name="tests.OpenInNewTabTest"/>
+        </classes>
+    </test>
+
+    <test name="Notification Message Tests" enabled="false">
+        <parameter name="appUrl"   value="http://localhost:7080/notification_message_rendered"/>
+
+        <classes>
+            <class name="tests.NotificationMessageTest"/>
+        </classes>
+    </test>
+
+    <test name="JS Error Tests" enabled="true">
+        <parameter name="appUrl"   value="http://localhost:7080/javascript_error"/>
+
+        <classes>
+            <class name="tests.JavaScriptErrorTest"/>
+        </classes>
+    </test>
+
+
+</suite>
