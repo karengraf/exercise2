@@ -1,5 +1,5 @@
 # exercise2
-Java Selenium TestNG framework created as an exercise in order to automate AutomaticBytes/demoapp.
+Java Selenium TestNG framework created as an exercise in order to automate gprestes/the-internet.
 
 Steps to get the image:
 
