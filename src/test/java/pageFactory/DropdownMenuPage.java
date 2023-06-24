@@ -24,12 +24,5 @@ public class DropdownMenuPage extends BasePage {
         String currentOption = this.dropdownMenu.findElement(By.cssSelector("[selected='selected']")).getText();
         return currentOption.equals(option);
     }
-
-    public boolean isOptionSelected2(String option) {
-        Select optionSelect = new Select(this.dropdownMenu);
-        String currentOption = optionSelect.getFirstSelectedOption().getText();
-        return currentOption.equals(option);
-    }
-
 }
 

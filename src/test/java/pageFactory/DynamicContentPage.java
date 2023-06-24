@@ -20,28 +20,8 @@ public class DynamicContentPage extends BasePage {
         super(driver);
     }
 
-    String originalText;
-    String newText;
-
-    public String getOriginalText() {
-        originalText = this.text.getText();
-        return originalText;
-    }
-
     public void refreshBrowser() {
         driver.navigate().refresh();
-    }
-
-    public String getNewText() {
-        newText = this.text.getText();
-        return newText;
-    }
-
-    public boolean checkTextHasChanged() {
-        if (getOriginalText() != getNewText())
-            return true;
-        else
-            return false;
     }
 
     public List<String> getTextAsString() {

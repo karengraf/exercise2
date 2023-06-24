@@ -21,9 +21,7 @@ public class FileUploadPage extends BasePage {
     }
 
     public void uploadFile(String fileName) {
-        //driver.findElement(By.id("file-upload")).sendKeys(System.getProperty("user.dir")+"/src/test/resources/data/"+fileName);
         this.selectFile.sendKeys(System.getProperty("user.dir")+"/src/test/resources/data/"+fileName);
-        //driver.findElement(By.id("file-submit")).submit();
         this.submitFile.submit();
     }
 

@@ -12,7 +12,6 @@ import util.ScreenshotUtil;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
 

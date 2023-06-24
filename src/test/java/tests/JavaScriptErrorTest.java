@@ -4,7 +4,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageFactory.JavaScriptAlertsPage;
 import pageFactory.JavaScriptErrorPage;
 
 public class JavaScriptErrorTest extends BaseTest {

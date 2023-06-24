@@ -3,7 +3,7 @@
 
 <suite name="Test Suite">
 
-    <test name="Login Tests" enabled="false">
+    <test name="Login Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/login"/>
         <parameter name="userName"   value="tomsmith"/>
         <parameter name="password"   value="SuperSecretPassword!"/>
@@ -13,7 +13,7 @@
         </classes>
     </test>
 
-    <test name="Checkbox Tests" enabled="false">
+    <test name="Checkbox Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/checkboxes"/>
 
 
@@ -23,7 +23,7 @@
     </test>
 
 
-    <test name="Context Menu Tests" enabled="false">
+    <test name="Context Menu Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/context_menu"/>
 
         <classes>
@@ -31,7 +31,7 @@
         </classes>
     </test>
 
-    <test name="Dropdown Menu Tests" enabled="false">
+    <test name="Dropdown Menu Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/dropdown"/>
 
         <classes>
@@ -39,7 +39,7 @@
         </classes>
     </test>
 
-    <test name="Dynamic Content Tests" enabled="false">
+    <test name="Dynamic Content Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/dynamic_content"/>
 
         <classes>
@@ -47,7 +47,7 @@
         </classes>
     </test>
 
-    <test name="Dynamic Controls Tests" enabled="false">
+    <test name="Dynamic Controls Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/dynamic_controls"/>
 
         <classes>
@@ -55,7 +55,7 @@
         </classes>
     </test>
 
-    <test name="Dynamic Loading Tests" enabled="false">
+    <test name="Dynamic Loading Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/dynamic_loading/2"/>
 
         <classes>
@@ -63,15 +63,7 @@
         </classes>
     </test>
 
-    <test name="File Download Tests" enabled="false">
-        <parameter name="appUrl"   value="http://localhost:7080/download"/>
-
-        <classes>
-            <class name="tests.FileDownloadTest"/>
-        </classes>
-    </test>
-
-    <test name="File Upload Tests" enabled="false">
+    <test name="File Upload Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/upload"/>
 
         <classes>
@@ -79,7 +71,7 @@
         </classes>
     </test>
 
-    <test name="Floating Menu Tests" enabled="false">
+    <test name="Floating Menu Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/floating_menu"/>
 
         <classes>
@@ -87,7 +79,7 @@
         </classes>
     </test>
 
-    <test name="iFrame Tests" enabled="false">
+    <test name="iFrame Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/iframe"/>
         <parameter name="text"   value="This is my text"/>
 
@@ -96,7 +88,7 @@
         </classes>
     </test>
 
-    <test name="Mouse Hover Tests" enabled="false">
+    <test name="Mouse Hover Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/hovers"/>
 
         <classes>
@@ -104,7 +96,7 @@
         </classes>
     </test>
 
-    <test name="JavaScript Alerts Tests" enabled="false">
+    <test name="JavaScript Alerts Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/javascript_alerts"/>
         <parameter name="text"   value="This is my text"/>
 
@@ -113,7 +105,7 @@
         </classes>
     </test>
 
-    <test name="Open In New Tab Tests" enabled="false">
+    <test name="Open In New Tab Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/windows"/>
 
         <classes>
@@ -121,7 +113,7 @@
         </classes>
     </test>
 
-    <test name="Notification Message Tests" enabled="false">
+    <test name="Notification Message Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:7080/notification_message_rendered"/>
 
         <classes>

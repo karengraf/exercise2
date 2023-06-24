@@ -36,19 +36,6 @@ public class DynamicControlsPage extends BasePage {
         this.inputButton.click();
     }
 
-    /*public boolean isCheckboxGone() {
-        super.waitFor(ExpectedConditions.invisibilityOf(this.checkbox));
-        try {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-            this.checkbox.isDisplayed();
-            return false;
-        } catch (NoSuchElementException e) {
-            return true;
-        } finally {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        }
-    }*/
-
     public boolean isCheckboxGone(String expectedMessage) {
         try {
             super.waitFor(ExpectedConditions.textToBePresentInElementLocated(By.id("message"), expectedMessage));
